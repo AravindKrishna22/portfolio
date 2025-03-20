@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.home h1 {
+  font-size: 50px;
+  color: #0ff;
+  text-shadow: 0 0 20px #0ff;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #0ff;
+  }
+  to {
+    text-shadow: 0 0 40px #0ff;
+  }
+}
+
+.home p {
+  font-size: 18px;
+  color: #ccc;
+  margin-top: 10px;
+}

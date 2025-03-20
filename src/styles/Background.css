@@ -1,0 +1,15 @@
+.animated-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #003366, black);
+  animation: moveBackground 10s infinite alternate ease-in-out;
+}
+@keyframes moveBackground {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-10px);
+  }
+}

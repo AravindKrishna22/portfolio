@@ -1,0 +1,74 @@
+.skills {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #001f3f, #011826);
+    color: #fff;
+  }
+  
+  .skills h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, cyan, #00ffea);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 5px #0ff;
+  }
+  
+  .skill-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-box {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: cyan;
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skill-box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 250%;
+    height: 250%;
+    background: radial-gradient(circle, rgba(0, 255, 255, 0.3), transparent);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .skill-box:hover::before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+  
+  .skill-box:hover {
+    background: rgba(0, 255, 255, 0.2);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .skill-box {
+      font-size: 1.2rem;
+      padding: 20px 30px;
+    }
+  }
+  

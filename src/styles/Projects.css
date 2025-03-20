@@ -1,0 +1,66 @@
+.projects {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #011826, #001f3f);
+    color: #fff;
+  }
+  
+  .projects h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    background: linear-gradient(90deg, cyan, #00ffea);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 5px #0ff;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-box {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: cyan;
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-box:hover {
+    background: rgba(0, 255, 255, 0.2);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3);
+  }
+  
+  .project-box video {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+  
+  .project-box .project-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .project-box {
+      font-size: 1.2rem;
+    }
+  }
+  
