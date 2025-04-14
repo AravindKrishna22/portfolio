@@ -23,9 +23,9 @@ const projects = [
     prototypeLink: "https://example.com/travel-prototype",
   },
   {
-    title: "Person Recognition",
+    title: "Accident Detection System",
     type: "text",
-    description: "Developed Face recognition model with Deep learning principle which helps to recognize people based on the input given by the user.",
+    description: "Developed Accident Detection System using Deep learning model which Detect the accident and sends realtime alert.",
     prototypeLink: "https://example.com/person-recognition-prototype",
   },
 ];

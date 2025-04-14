@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Skills.css";
 
 const Skills = () => {
-  const skillSet = ["React", "JavaScript", "MongoDB", "FIGMA", "Python"];
+  const skillSet = ["React", "JavaScript", "MongoDB", "FIGMA", "Python","SQL"];
 
   return (
     <section id="skills" className="skills">
