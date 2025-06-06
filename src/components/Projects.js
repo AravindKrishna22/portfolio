@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Projects.css";
 import uiux1 from "../img/UI1.mp4";
-import uiux2 from "../img/UI2.mp4";
 
 const projects = [
   {
