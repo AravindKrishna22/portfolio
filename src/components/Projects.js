@@ -11,9 +11,9 @@ const projects = [
     prototypeLink: "https://www.figma.com/proto/p8jr6qdaPbvzhxDeCogR8f/BENZ-WEBSITE-REDESIGN?page-id=0%3A1&node-id=119-24&starting-point-node-id=5%3A10&t=KZklrFIfqaokCOI7-1",
   },
   {
-    title: "Freelance Go-Kart Website",
-    type: "video",
-    src: uiux2,
+    title: "Project Management System",
+    type: "text",
+    description: "An all-in-one platform to manage, monitor, and optimize projects with real-time insights into resources, labour, and cost.",
     prototypeLink: "https://www.figma.com/proto/hdWamWMZ3krsCko5YuBmqQ/Untitled?page-id=0%3A1&node-id=3-4&p=f&viewport=464%2C263%2C0.04&t=EGHgZM4f3YnBhUvB-1&scaling=scale-down&content-scaling=fixed",
   },
   {
